@@ -1,0 +1,39 @@
+{
+  "_comment": "Copy to params.json and fill in your values. Do NOT commit params.json.",
+
+  "aws": {
+    "region":           "us-east-1",
+    "emr_release":      "emr-6.3.0",
+    "emr_subnet_id":    "subnet-xxxxxxxx",
+    "ec2_key_pair":     "your-key-pair",
+    "instance_type":    "m5.4xlarge",
+    "core_nodes":       4
+  },
+
+  "buckets": {
+    "source":           "your-source-bucket",
+    "geo_store":        "your-geo-store-bucket",
+    "interim":          "your-interim-bucket",
+    "output":           "your-output-bucket",
+    "metadata":         "your-metadata-bucket"
+  },
+
+  "cleanrooms": {
+    "collaboration_id": "your-collaboration-id",
+    "membership_id":    "your-membership-id",
+    "output_format":    "CSV",
+    "min_group_size":   100
+  },
+
+  "pipeline": {
+    "underserved_density_percentile": 0.75,
+    "poll_interval_sec":  30,
+    "poll_max_interval":  300,
+    "poll_timeout_hours": 1
+  },
+
+  "airflow": {
+    "slack_conn_id":      "slack_default",
+    "slack_error_conn_id":"slack_error"
+  }
+}

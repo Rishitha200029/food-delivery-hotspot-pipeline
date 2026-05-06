@@ -1,0 +1,6 @@
+zone_id,study_id,campaign_id,target_city,min_order_threshold,ext1,ext2
+ZONE_0001,STUDY_101,CAMP_1001,New York,20,,
+ZONE_0002,STUDY_101,CAMP_1001,New York,20,,
+ZONE_0003,STUDY_102,CAMP_1002,Los Angeles,15,,
+ZONE_0004,STUDY_102,CAMP_1002,Los Angeles,15,,
+ZONE_0005,STUDY_103,CAMP_1003,Chicago,10,,
